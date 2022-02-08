@@ -2,7 +2,26 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
-@import 'variables';
+@import '_variables';
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// @import '~bootstrap/scss/bootstrap';
+
+/**
+* Foundation
+* ========================== */
+@import "foundation/_reset"; 
+/**
+* Layout
+* ========================== */
+// @import "layout/_footer";
+// @import "layout/_header";
+/* Object
+* ========================== */
+/* Component ------------ */
+// @import "object/component/_avatar"; @import "object/component/_button";
+/* Project ------------ */
+// @import "object/project/_articles"; 
+// @import "object/project/_comments";
+/* Utility ------------ */
+// @import "object/utility/_align"; @import "object/utility/_margin";
